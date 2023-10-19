@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    background:url(demo2.jpg);
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.title{
+    margin-top:100px;
+    color: #fff;
+
+}
+.title h1{
+    font-size: 32px;
+    line-height: 10px;
+
+}
+title h2{
+    font-size: 16px;
+}
+form{
+    margin-top: 50px;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid gray;
+    color:purple;
+    font-size:18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+.submit{
+    background-color: red;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    transition: 1s ease;
+
+}
+form.submit:hover{
+    background-color: #f44336;
+    cursor:pointer;
+}
